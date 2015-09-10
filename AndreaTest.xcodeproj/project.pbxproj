@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E63119941BA20A1C00900723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63119931BA20A1C00900723 /* AppDelegate.swift */; };
+		E63119971BA20A1C00900723 /* AndreaTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E63119951BA20A1C00900723 /* AndreaTest.xcdatamodeld */; };
+		E63119991BA20A1C00900723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63119981BA20A1C00900723 /* ViewController.swift */; };
+		E631199C1BA20A1C00900723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E631199A1BA20A1C00900723 /* Main.storyboard */; };
+		E631199E1BA20A1C00900723 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631199D1BA20A1C00900723 /* Images.xcassets */; };
+		E63119A11BA20A1C00900723 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E631199F1BA20A1C00900723 /* LaunchScreen.xib */; };
+		E63119AD1BA20A1C00900723 /* AndreaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63119AC1BA20A1C00900723 /* AndreaTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E63119A71BA20A1C00900723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E63119861BA20A1C00900723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E631198D1BA20A1C00900723;
+			remoteInfo = AndreaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E631198E1BA20A1C00900723 /* AndreaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndreaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63119921BA20A1C00900723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63119931BA20A1C00900723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E63119961BA20A1C00900723 /* AndreaTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AndreaTest.xcdatamodel; sourceTree = "<group>"; };
+		E63119981BA20A1C00900723 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E631199B1BA20A1C00900723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E631199D1BA20A1C00900723 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E63119A01BA20A1C00900723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E63119A61BA20A1C00900723 /* AndreaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndreaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63119AB1BA20A1C00900723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63119AC1BA20A1C00900723 /* AndreaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreaTestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E631198B1BA20A1C00900723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63119A31BA20A1C00900723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E63119851BA20A1C00900723 = {
+			isa = PBXGroup;
+			children = (
+				E63119901BA20A1C00900723 /* AndreaTest */,
+				E63119A91BA20A1C00900723 /* AndreaTestTests */,
+				E631198F1BA20A1C00900723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E631198F1BA20A1C00900723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E631198E1BA20A1C00900723 /* AndreaTest.app */,
+				E63119A61BA20A1C00900723 /* AndreaTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63119901BA20A1C00900723 /* AndreaTest */ = {
+			isa = PBXGroup;
+			children = (
+				E63119931BA20A1C00900723 /* AppDelegate.swift */,
+				E63119981BA20A1C00900723 /* ViewController.swift */,
+				E631199A1BA20A1C00900723 /* Main.storyboard */,
+				E631199D1BA20A1C00900723 /* Images.xcassets */,
+				E631199F1BA20A1C00900723 /* LaunchScreen.xib */,
+				E63119951BA20A1C00900723 /* AndreaTest.xcdatamodeld */,
+				E63119911BA20A1C00900723 /* Supporting Files */,
+			);
+			path = AndreaTest;
+			sourceTree = "<group>";
+		};
+		E63119911BA20A1C00900723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63119921BA20A1C00900723 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63119A91BA20A1C00900723 /* AndreaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E63119AC1BA20A1C00900723 /* AndreaTestTests.swift */,
+				E63119AA1BA20A1C00900723 /* Supporting Files */,
+			);
+			path = AndreaTestTests;
+			sourceTree = "<group>";
+		};
+		E63119AA1BA20A1C00900723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63119AB1BA20A1C00900723 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E631198D1BA20A1C00900723 /* AndreaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63119B01BA20A1C00900723 /* Build configuration list for PBXNativeTarget "AndreaTest" */;
+			buildPhases = (
+				E631198A1BA20A1C00900723 /* Sources */,
+				E631198B1BA20A1C00900723 /* Frameworks */,
+				E631198C1BA20A1C00900723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndreaTest;
+			productName = AndreaTest;
+			productReference = E631198E1BA20A1C00900723 /* AndreaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E63119A51BA20A1C00900723 /* AndreaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63119B31BA20A1C00900723 /* Build configuration list for PBXNativeTarget "AndreaTestTests" */;
+			buildPhases = (
+				E63119A21BA20A1C00900723 /* Sources */,
+				E63119A31BA20A1C00900723 /* Frameworks */,
+				E63119A41BA20A1C00900723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E63119A81BA20A1C00900723 /* PBXTargetDependency */,
+			);
+			name = AndreaTestTests;
+			productName = AndreaTestTests;
+			productReference = E63119A61BA20A1C00900723 /* AndreaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63119861BA20A1C00900723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nestor Bermudez";
+				TargetAttributes = {
+					E631198D1BA20A1C00900723 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E63119A51BA20A1C00900723 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E631198D1BA20A1C00900723;
+					};
+				};
+			};
+			buildConfigurationList = E63119891BA20A1C00900723 /* Build configuration list for PBXProject "AndreaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E63119851BA20A1C00900723;
+			productRefGroup = E631198F1BA20A1C00900723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E631198D1BA20A1C00900723 /* AndreaTest */,
+				E63119A51BA20A1C00900723 /* AndreaTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E631198C1BA20A1C00900723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E631199C1BA20A1C00900723 /* Main.storyboard in Resources */,
+				E63119A11BA20A1C00900723 /* LaunchScreen.xib in Resources */,
+				E631199E1BA20A1C00900723 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63119A41BA20A1C00900723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E631198A1BA20A1C00900723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63119991BA20A1C00900723 /* ViewController.swift in Sources */,
+				E63119971BA20A1C00900723 /* AndreaTest.xcdatamodeld in Sources */,
+				E63119941BA20A1C00900723 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63119A21BA20A1C00900723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63119AD1BA20A1C00900723 /* AndreaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E63119A81BA20A1C00900723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E631198D1BA20A1C00900723 /* AndreaTest */;
+			targetProxy = E63119A71BA20A1C00900723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E631199A1BA20A1C00900723 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E631199B1BA20A1C00900723 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E631199F1BA20A1C00900723 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63119A01BA20A1C00900723 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63119AE1BA20A1C00900723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E63119AF1BA20A1C00900723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E63119B11BA20A1C00900723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AndreaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E63119B21BA20A1C00900723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AndreaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E63119B41BA20A1C00900723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AndreaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndreaTest.app/AndreaTest";
+			};
+			name = Debug;
+		};
+		E63119B51BA20A1C00900723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AndreaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndreaTest.app/AndreaTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63119891BA20A1C00900723 /* Build configuration list for PBXProject "AndreaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63119AE1BA20A1C00900723 /* Debug */,
+				E63119AF1BA20A1C00900723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63119B01BA20A1C00900723 /* Build configuration list for PBXNativeTarget "AndreaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63119B11BA20A1C00900723 /* Debug */,
+				E63119B21BA20A1C00900723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E63119B31BA20A1C00900723 /* Build configuration list for PBXNativeTarget "AndreaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63119B41BA20A1C00900723 /* Debug */,
+				E63119B51BA20A1C00900723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E63119951BA20A1C00900723 /* AndreaTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E63119961BA20A1C00900723 /* AndreaTest.xcdatamodel */,
+			);
+			currentVersion = E63119961BA20A1C00900723 /* AndreaTest.xcdatamodel */;
+			path = AndreaTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E63119861BA20A1C00900723 /* Project object */;
+}
